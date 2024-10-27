@@ -1,0 +1,22 @@
+.container { 
+    background-color: aliceblue; 
+
+}
+
+.list {
+    color: blue;display: flex;
+    flex-direction: column;
+    min-height: 100vh;  ;
+
+}
+.h01 {
+    font-size: xx-large; padding: 24px;
+}
+
+.h02 {
+    font-size: x-large; padding: 28px;
+}
+
+.h03 { 
+    font-size: x-large; padding-left: 28px; 
+}
