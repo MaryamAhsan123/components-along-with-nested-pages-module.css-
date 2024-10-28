@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from '../Header'
+import Footer from '../../Footer/Footer'
+import style from './bedsheets.module.css'
 
 const Bedsheetspage = () => {
   return (
-    <div >
-      <h1>Catalogue will be updated soon !</h1>
+    <div className={style.container}>
+    
+      <Header/>
+      <h1 className={style.hero}>Catalogue will be updated soon !</h1>
+      <Footer/>
+
     </div>
   )
 }
