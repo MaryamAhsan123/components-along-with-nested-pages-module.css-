@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <div className={style.container}>
         <h1 className={style.header} >Premium Collection</h1>
-        <ul className={style.list}>
+        
+  
+     <div><ul className={style.list}>
        <li> <Link href="/">Home</Link> </li>
         <li> <Link href="/components/Header/Fittedsheets">Fittedsheets</Link> </li>
         <li><Link href="/components/Header/Mattresscovers">Mattress covers</Link> </li>
@@ -14,6 +16,11 @@ const Header = () => {
         <li><Link href="/components/Header/Contact">Contact</Link></li>
 
       </ul>
+      </div>
+
+     <div>
+
+     </div>
       
     </div>
   )

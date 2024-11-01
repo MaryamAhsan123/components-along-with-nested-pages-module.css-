@@ -1,3 +1,7 @@
+.main{ 
+     flex-direction: row; justify-items: center; min-height: 100vh
+}
+
 .container { 
     background-color: aliceblue; 
 
@@ -6,7 +10,7 @@
 .list {
     color: blue;display: flex;
     flex-direction: column;
-    min-height: 100vh;  ;
+  ;
 
 }
 .h01 {
@@ -19,4 +23,9 @@
 
 .h03 { 
     font-size: x-large; padding-left: 28px; 
+
+}
+
+.im{
+    padding-top: 28px ;
 }
